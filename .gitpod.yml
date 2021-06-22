@@ -1,0 +1,14 @@
+
+vscode:
+  extensions:
+    - fisheva.eva-theme
+    - formulahendry.code-runner
+    - mtxr.sqltools
+    - samuelcolvin.jinjahtml
+    - wholroyd.jinja
+    - ritwickdey.liveserver
+    - ms-python.python
+    - foxundermoon.shell-format
+    - tabnine.tabnine-vscode
+    - yzhang.markdown-all-in-one
+    - lonefy.vscode-js-css-html-formatter
