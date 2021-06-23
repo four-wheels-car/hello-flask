@@ -1,5 +1,5 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} - 一个测试</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
@@ -8,10 +8,10 @@
     <ul>
         {% if g.user %}
         <li><span>{{ g.user['username'] }}</span>
-        <li><a href="{{ url_for('auth.logout') }}">Log Out</a>
+        <li><a href="{{ url_for('auth.logout') }}">登出</a>
             {% else %}
-        <li><a href="{{ url_for('auth.register') }}">Register</a>
-        <li><a href="{{ url_for('auth.login') }}">Log In</a>
+        <li><a href="{{ url_for('auth.register') }}">注册</a>
+        <li><a href="{{ url_for('auth.login') }}">登录</a>
             {% endif %}
     </ul>
 </nav>
