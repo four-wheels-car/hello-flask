@@ -8,13 +8,10 @@
     <img src="flaskr/static/apple-touch-icon.png"/>
 </span>
 
->"大学学计算机专业其实和自学差不多"  
->"计算机科班的人也大多是自学的"  
->计算机更看重学历还是更看重技术？ - 编程指北的回答 - 知乎  
->https://www.zhihu.com/question/454783960/answer/1903593468  
+- 使用以下网址自学，按照流程走完，可以实现注册登录发帖功能的小博客。
 
 
-- 开始你的自学：[Flask 2.0 Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/)
+- [Flask 2.0 Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/)
 
 
 <br>
@@ -26,7 +23,5 @@
 <hr>
 
 <small>
-Gitpod小坑:<br>
-由于Gitpod做了NAT，所以你得指定监听地址是 0.0.0.0<br>
-<code>flask run -h 0.0.0.0</code>
+bootstrap好像没做成功
 </small>
